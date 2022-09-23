@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main – Prints a random number
+ * main – Entry point
  *
  * Return: Always success
  */
