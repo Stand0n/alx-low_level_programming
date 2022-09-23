@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main – prints all single digit numbers from 0 to 10
- * Description - do not use certain charactets
- * Return: Always 0 (Success)
+ * main - prints single numbers from 0 to 9
+ *
+ * Return: 0 if successful
  */
 int main(void)
 {
