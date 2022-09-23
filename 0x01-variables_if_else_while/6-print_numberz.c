@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main – Entry point
+ * main – prints numbers from 0 to 9
  *
  * Return: Always 0 (Success)
  */
@@ -12,7 +12,6 @@ int main(void)
 
 	for (d = '0'; d <= '9'; d++)
 		putchar(d);
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
