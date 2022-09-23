@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main – prints numbers from 0 to 9
  * only using putchar and without char variables
