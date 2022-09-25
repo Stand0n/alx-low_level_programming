@@ -19,8 +19,3 @@ int _strlen(char *s)
 
 	return (i);
 }
-int main(void)
-{
-	char *str;
-	return (0);
-}
