@@ -21,6 +21,6 @@ int _strlen(char *s)
 }
 int main(void)
 {
-	char *s;
+	char *str;
 	return (0);
 }
