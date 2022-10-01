@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,19 +5,11 @@
  * @argc: argument count
  * @argv: argunment vector
  *
- * Return: int
+ * Return: Always 0
  */
-
 int main(int argc, char *argv[])
 {
-	int count;
-
-	for (count = 0; count < argc; count++)
-	{
-		if (argc == 1)
-			printf("%s\n", argv[count]);
-		else
-			break;
-	}
+	printf("%s\n", argv[0]);
+	(void)argc;
 	return (0);
 }
